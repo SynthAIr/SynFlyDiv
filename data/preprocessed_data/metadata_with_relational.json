@@ -1,0 +1,109 @@
+{
+    "tables": {
+        "real_flight_information": {
+            "columns": {
+                "Unique Carrier Code": {
+                    "sdtype": "categorical"
+                },
+                "Tail Number": {
+                    "sdtype": "categorical"
+                },
+                "Origin Airport ID": {
+                    "sdtype": "categorical"
+                },
+                "ICAO Origin Airport": {
+                    "sdtype": "categorical"
+                },
+                "Origin City": {
+                    "sdtype": "city",
+                    "pii": false
+                },
+                "Origin State Code": {
+                    "sdtype": "state_abbr",
+                    "pii": false
+                },
+                "Origin State Name": {
+                    "sdtype": "state",
+                    "pii": false
+                },
+                "Destination Airport ID": {
+                    "sdtype": "categorical"
+                },
+                "ICAO Destination Airport": {
+                    "sdtype": "categorical"
+                },
+                "Destination City": {
+                    "sdtype": "city",
+                    "pii": false
+                },
+                "Destination State Code": {
+                    "sdtype": "state_abbr",
+                    "pii": false
+                },
+                "Destination State Name": {
+                    "sdtype": "state",
+                    "pii": false
+                },
+                "Quarter": {
+                    "sdtype": "categorical"
+                },
+                "Day of Week": {
+                    "sdtype": "categorical"
+                },
+                "Scheduled Departure Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Actual Departure Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Departure \u0394T (min)": {
+                    "sdtype": "numerical"
+                },
+                "Departure Delay Label": {
+                    "sdtype": "categorical"
+                },
+                "Taxi Out Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Wheels Off Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Wheels On Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Taxi In Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Scheduled Arrival Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Actual Arrival Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Arrival \u0394T (min)": {
+                    "sdtype": "numerical"
+                },
+                "Arrival Delay Label": {
+                    "sdtype": "categorical"
+                },
+                "Scheduled Elapsed Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Actual Elapsed Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Air Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Distance (miles)": {
+                    "sdtype": "numerical"
+                },
+                "Diversion Label": {
+                    "sdtype": "categorical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

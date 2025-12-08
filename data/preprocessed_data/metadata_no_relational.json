@@ -1,0 +1,52 @@
+{
+    "tables": {
+        "real_flight_information": {
+            "columns": {
+                "Unique Carrier Code": {
+                    "sdtype": "categorical"
+                },
+                "Tail Number": {
+                    "sdtype": "categorical"
+                },
+                "Origin Airport ID": {
+                    "sdtype": "categorical"
+                },
+                "Destination Airport ID": {
+                    "sdtype": "categorical"
+                },
+                "Scheduled Departure Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Actual Departure Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Departure \u0394T (min)": {
+                    "sdtype": "numerical"
+                },
+                "Taxi Out Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Taxi In Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Arrival \u0394T (min)": {
+                    "sdtype": "numerical"
+                },
+                "Scheduled Elapsed Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Actual Elapsed Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Air Time (min)": {
+                    "sdtype": "numerical"
+                },
+                "Diversion Label": {
+                    "sdtype": "categorical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}
