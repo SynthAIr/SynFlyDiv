@@ -64,28 +64,32 @@ This repository implements four synthetic data generation approaches specificall
 
 <!-- markdownlint-disable MD033 -->
 <div id="fig-results" align="center">
-  <div style="display: inline-block; margin: 5px; width: 40%;">
-    <img src="./data/outputs/paper_plots/realism/realism_1000.png" alt="Figure 1" width="100%"/>
-    <br/>
-    <em>(a) Realism (higher is better).</em>
-  </div>
-  <div style="display: inline-block; margin: 5px; width: 40%;">
-    <img src="./data/outputs/paper_plots/statistical/statistical_overall_1000.png" alt="Figure 2" width="100%"/>
-    <br/>
-    <em>(b) Overall statistical similarity (higher is better).</em>
-  </div>
-  <br/>
-  <div style="display: inline-block; margin: 5px; width: 40%;">
-    <img src="./data/outputs/paper_plots/fidelity/fidelity_overall_1000.png" alt="Figure 3" width="100%"/>
-    <br/>
-    <em>(c) Overall fidelity (lower is better).</em>
-  </div>
-  <div style="display: inline-block; margin: 5px; width: 40%;">
-    <img src="./data/outputs/paper_plots/utility/utility_overall_1000.png" alt="Figure 4" width="100%"/>
-    <br/>
-    <em>(d) Overall utility (higher is better).</em>
-  </div>
-  <br/>
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="./data/outputs/paper_plots/realism/realism_1000.png" alt="Realism" width="90%"/>
+        <br/>
+        <em>(a) Realism (higher is better).</em>
+      </td>
+      <td align="center" width="50%">
+        <img src="./data/outputs/paper_plots/statistical/statistical_overall_1000.png" alt="Overall statistical similarity" width="90%"/>
+        <br/>
+        <em>(b) Overall statistical similarity (higher is better).</em>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./data/outputs/paper_plots/fidelity/fidelity_overall_1000.png" alt="Overall fidelity" width="90%"/>
+        <br/>
+        <em>(c) Overall fidelity (lower is better).</em>
+      </td>
+      <td align="center">
+        <img src="./data/outputs/paper_plots/utility/utility_overall_1000.png" alt="Overall utility" width="90%"/>
+        <br/>
+        <em>(d) Overall utility (higher is better).</em>
+      </td>
+    </tr>
+  </table>
   <em>Figure 2: Summary of the results across four key metrics.</em>
 </div>
 <!-- markdownlint-enable MD033 -->
