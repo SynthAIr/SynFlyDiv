@@ -5,7 +5,8 @@ This study aims to improve the prediction of rare events—specifically flight d
 ## 📄 Paper
 
 This repository accompanies the paper: **_Generative Augmentation of Imbalanced Flight Records for Flight Diversion Prediction: A Multi-objective Optimisation Framework_**
-- ArXiv (preprint): [https://arxiv.org/abs/2604.20288](https://arxiv.org/abs/2604.20288).
+
+- ScienceDirect: [https://doi.org/10.1016/j.ast.2026.113224](https://doi.org/10.1016/j.ast.2026.113224).
 - Hugging Face 🤗: [https://huggingface.co/papers/2604.20288](https://huggingface.co/papers/2604.20288).
 
 This work builds upon our earlier publication, **_Synthetic Flight Data Generation Using Generative Models_**, which paved the way for producing realistic flight records using generative modeling techniques. The current contribution extends this approach by addressing severe class imbalance, incorporating multi-objective optimization, and demonstrating the benefits of synthetic data augmentation for safety-critical prediction tasks.
